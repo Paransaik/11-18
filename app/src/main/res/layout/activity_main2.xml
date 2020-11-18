@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/LinearLayout1"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="redraw"
-        android:text="다시 그리려면 클릭" />
+    tools:context=".MainActivity2">
 
     <view
         android:id="@+id/myview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="com.example.a1118.MyView" />
-
+        class="com.example.a1118.MyView2" />
 </LinearLayout>
