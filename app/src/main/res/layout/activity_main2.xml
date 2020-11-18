@@ -5,10 +5,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
-
-    <view
-        android:id="@+id/myview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        class="com.example.a1118.MyView2" />
 </LinearLayout>
